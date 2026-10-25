@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hugoauction",
+  "version": "${version}",
+  "name": "Hugo Auktion",
+  "description": "Auktionsmodul für Hugo SMP: Item einstellen, Timer, Mindestgebot, Sofortkauf, Gebote per Zahlungsnachricht.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.hugosmp.auction.HugoAuctionClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
